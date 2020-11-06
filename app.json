@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "tictoctoe",
+    "slug": "tictoctoe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/tictoeicon.png",
+    "splash": {
+      "image": "./assets/tictoeicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#522D6C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/tictoeicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.chawandinesh53.tictoctoe"
+    },
+    "web": {
+      "favicon": "./assets/tictoeicon.png"
+    }
+  }
+}
